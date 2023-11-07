@@ -1,0 +1,105 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+
+}
+.profile{
+    height: 400px;
+    width: 300px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1) ;
+    border-radius: 15px;
+}
+.profile-picture img{
+    height: 100px;
+    width: 110px;
+    background-color: white;
+    padding:3px;
+    border: 3px solid rgb(3, 136, 245);
+    border-radius: 50%;
+    position: absolute;
+    bottom: -25px;
+    object-fit: cover;
+    transition: all 0.15s;
+    cursor:pointer;
+
+}
+.profile-picture{
+    background-color: rgb(3, 136, 245);
+    height: 150px;
+    border-radius: 15px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.profile-picture:hover img{
+    height:200px;
+    width: 200px;
+}
+.author{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    flex-direction: column;
+}
+.author-name{
+    font-weight: 500;
+    font-size: 22px;
+}
+.buttons button img{
+    height:25px;
+    border: none;
+    border-radius: 25px;
+    object-fit: cover;
+    
+}
+.buttons button{
+    background-color:whitesmoke;
+    border: none;
+    border-radius: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+
+}
+.contact button{
+    background-color:  rgb(3, 136, 245);
+    border: none;
+    border-radius: 17px;
+    color: white;
+    padding: 5px 20px 5px 20px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: all 0.15s;
+}
+.contact button:hover{
+    background-color:rgb(2, 91, 165) ;
+}
+.contact .subscribe-button{
+margin-right: 10px;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 30px;
+}
+footer button img{
+    height: 20px;
+}
+footer button{
+    border: none;
+    background-color:whitesmoke;
+    border-radius: 10px;
+}
