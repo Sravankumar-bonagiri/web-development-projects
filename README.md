@@ -1,3 +1,3 @@
 # web-development-projects
 
-![my-profile-card](images/my-profile-card.png)
+![my-profile-card](web-development-projects/my-profile-card.png)
